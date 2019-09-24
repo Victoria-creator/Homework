@@ -7,5 +7,5 @@ for i in range(1, 5000):
         addition = number1 + number2
         if number1 not in pentagonal_numbers:                
             pentagonal_numbers.add(number1)
-        if addition in pentagonal_numbers and subtraction in pentagonal_numbers and addition in pentagonal_numbers:
+        if addition in pentagonal_numbers and subtraction in pentagonal_numbers:
             print(subtraction)
